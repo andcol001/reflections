@@ -1,0 +1,9 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates a .git directory as a sub-directory of the directory in which I initialised the repository. I need to this if I want to start tracking the history and contril versions of files in the repository
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It is an intermediate area. You do not have direct access to this as you do to working director and repository. It allows you to group together changes files in a logical way so that you can do logically structures git commits from the working directory to the repository
+
+
