@@ -1,0 +1,28 @@
+1) How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It was helpful because I could review only the lines of code that I changed, and ignore the hundereds of lines of code that ere not changed. This allowed me to hone in quickly on where in the changes I made the typo.
+
+2)How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+You can start seeing and learning about common mistakes you make
+
+3) What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+Pro: You can decide what is the best point to commit that makes logical sense. Automatically sved changes may not be related to a logical division.
+Con: You may forget to do a save for a long time, and if your computer crashes you could lose a lot of work
+
+4) Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+Because files can be inte-related and hence you may make change sti multiple files that logically are inter-related and you want to track these in each commit.
+
+5) How can you use the commands git log and git diff to view the history of files?
+
+git log shows the complete history of all commits, so you can see how each file was changed at each commit point with the comments that were added. To view the actual differene in the files, you can use git diff to view the differences between two different commit checkpoints
+
+6) How might using version control make you more confident to make changes that could break something?
+
+I know that I can revert back to a version before the bug was introduced that broke the code, so I would be confident to make changes as I could always revert to something that was working
+
+7) Now that you have your workspace set up, what do you want to try using Git for?
+
+Just about everything
