@@ -6,4 +6,8 @@ How is the staging area different from the working directory and the repository?
 
 It is an intermediate area. You do not have direct access to this as you do to working director and repository. It allows you to group together changes files in a logical way so that you can do logically structures git commits from the working directory to the repository
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+One might have made lots of changes to the working directory, but they may not all be logically connected / coherent. One can therefore select a sub-set of files that have been changed, all that have a logical connection to them, and add these files to the staging area. Now when you do a commit, only these files will be commited to the repository, correpsoding to one commit per logical change. Now the nex set of changed files that have logical connections can be added to stagng area anf commited and so on...
+
 
