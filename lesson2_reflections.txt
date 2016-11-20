@@ -8,6 +8,16 @@ It is an intermediate area. You do not have direct access to this as you do to w
 
 How can you use the staging area to make sure you have one commit per logical change?
 
-One might have made lots of changes to the working directory, but they may not all be logically connected / coherent. One can therefore select a sub-set of files that have been changed, all that have a logical connection to them, and add these files to the staging area. Now when you do a commit, only these files will be commited to the repository, correpsoding to one commit per logical change. Now the nex set of changed files that have logical connections can be added to stagng area anf commited and so on...
+One might have made lots of changes to the working directory, but they may not all be logically connected / coherent. One can therefore select a sub-set of files that have been changed, all that have a logical connection to them, and add these files to the staging area. Now when you do a commit, only these files will be commited to the repository, correpsoding to one commit per logical change. Now the nex set of changed files that have logical connections can be added to staging area anf commited and so on...
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When experimenting with adding a new feature. Isolate changes to branch
+
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+
+Combines changes that were made through the history of changes in both branches. Represented in diagram as having the head of both brances as parents so that changes in both branches are reachable from the new merged head.
 
 
