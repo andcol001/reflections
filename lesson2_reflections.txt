@@ -20,4 +20,9 @@ What is the result of merging two branches together? Why do we represent it in t
 
 Combines changes that were made through the history of changes in both branches. Represented in diagram as having the head of both brances as parents so that changes in both branches are reachable from the new merged head.
 
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merges alllow simultaneous editing of content under revision control as if different parts of content are modified by different people. go can merge these results without any conflict removing tedious hours of work trying to figure out that people changed different parts of the content.
+
+
 
