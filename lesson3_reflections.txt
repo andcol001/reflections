@@ -1,1 +1,10 @@
 When would you want to use a remote repository rather than keeping all your work local?
+
+As a backup of a local repository so that I can pull the remote to a different local machine to work or to collaborate with other team members so that we can push and pull our branches that we are working on independently.
+
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+
+One can control at what point you want to pull / push changes according to when work is "finished". "Finished
+ might be in the context of completting something that another team members needs for what he is working on or for a release version of you software for example. In automtic mode, one would not be able to control these logical synch points.
+
+
