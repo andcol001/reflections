@@ -15,4 +15,8 @@ How would you collaborate without using Git or GitHub? What would be easier, and
 
 Shared file system. The shared files system approach would be much harder and changes would not be tracked and so conflicts could arise. The only way around this is to lock out files when someone is editing them, but that means multiple people could not work simultaneously on the project!
 
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+When I am adding a new feature and do not want to break master which is the production. However, if fixing bugs or documentation, then it is better to work directly in master.
+
 
